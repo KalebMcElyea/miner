@@ -9,15 +9,15 @@
 
 
 .up-card{
+    background-color: rgba(0, 0, 0, 0.365);
     background-size: 10%;
     width: 40vh;
 }
 
-/*.cheese-card{
-    background-color: rgba(84, 83, 83, 0.303);
-    height: 15vh;
-    padding-left: 3%; 
-}*/
+.cheese-card{
+    height: 30vh;
+ 
+}
 
 .moon{
     background-image: url("http://24.media.tumblr.com/53dc3983c0b22c95b3a01a191325c66c/tumblr_mk49xu482A1s5jjtzo1_400.gif");
@@ -25,7 +25,7 @@
     object-fit: cover;
     width: 100%;
     height: auto;
-    background-size: 70%;
+    background-size: 65%;
     padding-left: 50%;
 
 }
