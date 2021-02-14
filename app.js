@@ -140,7 +140,7 @@ function collectAutoUpgrades(){
         //     } else{
         //         setInterval(collectAutoUpgrades, 3000)
         // }
-        let autoInterval=setInterval(collectAutoUpgrades, 3000)
+        // let autoInterval=setInterval(collectAutoUpgrades, 3000)
     }
     
       startInterval()  
