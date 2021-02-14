@@ -1,0 +1,39 @@
+.body-img{
+    background-image: url("https://images.unsplash.com/photo-1538370965046-79c0d6907d47?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    object-fit: cover;
+    height:fit-content;
+    overflow: hidden;
+}
+
+.up-card{
+    background-size: 10%;
+    width: 40vh;
+}
+
+/*.cheese-card{
+    background-color: rgba(84, 83, 83, 0.303);
+    height: 15vh;
+    padding-left: 3%; 
+}*/
+
+.moon{
+    background-image: url("http://24.media.tumblr.com/53dc3983c0b22c95b3a01a191325c66c/tumblr_mk49xu482A1s5jjtzo1_400.gif");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    background-size: 70%;
+    padding-left: 50%;
+
+}
+
+.button-color{
+color: hsla(0, 0%, 3%, 0.803);
+background-color: rgba(0, 255, 255, 0.598);
+border-color: black;
+font-size: small;
+border-radius: 10%;
+}
+
