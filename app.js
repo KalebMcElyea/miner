@@ -130,15 +130,17 @@ function buyNovaDrill(){
 function collectAutoUpgrades(){
      automaticUpgrades.novadrill.quantity * automaticUpgrades.novadrill.multiplayer
             mine()
+    
         }
 
 
         function startInterval(){
-            if(automaticUpgrades.novadrill.quantity < automaticUpgrades.novadrill.multiplayer){
-                setTimeout(collectAutoUpgrades, 3000)
-            } else{
-                setInterval(collectAutoUpgrades, 3000)
-        }
+        //     if(automaticUpgrades.novadrill.quantity < automaticUpgrades.novadrill.multiplayer){
+        //         setTimeout(collectAutoUpgrades, 3000)
+        //     } else{
+        //         setInterval(collectAutoUpgrades, 3000)
+        // }
+        let autoInterval=setInterval(collectAutoUpgrades, 3000)
     }
     
       startInterval()  
