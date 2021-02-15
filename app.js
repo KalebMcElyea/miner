@@ -16,6 +16,7 @@ let cheese = 0
 let startcheese = 0
 let counter = document.getElementById("quanity")
 let mod = 0 
+let automod= 0
 let count = 0
 let items = document.getElementById("items-display")
 let pickAxe =document.getElementById("pickaxe")
@@ -120,7 +121,7 @@ function buyNovaDrill(){
     if(cheese >= automaticUpgrades.novadrill.cost){
     automaticUpgrades.novadrill.quantity++
         cheese -= automaticUpgrades.novadrill.cost
-        mod += automaticUpgrades.novadrill.multiplayer 
+        automod += automaticUpgrades.novadrill.multiplayer 
         moonDrill.innerText += ` Nova Drill 1 cheese per second`
     } 
     
@@ -128,19 +129,15 @@ function buyNovaDrill(){
 }
 
 function collectAutoUpgrades(){
-     automaticUpgrades.novadrill.quantity * automaticUpgrades.novadrill.multiplayer
-            mine()
-    
+     cheese += automod
+
+     draw()
         }
 
 
         function startInterval(){
-        //     if(automaticUpgrades.novadrill.quantity < automaticUpgrades.novadrill.multiplayer){
-        //         setTimeout(collectAutoUpgrades, 3000)
-        //     } else{
-        //         setInterval(collectAutoUpgrades, 3000)
-        // }
-        // let autoInterval=setInterval(collectAutoUpgrades, 3000)
+       
+        let autoInterval=setInterval(collectAutoUpgrades, 3000)
     }
     
       startInterval()  
