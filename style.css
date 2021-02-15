@@ -20,11 +20,9 @@
 }
 
 .moon{
-    background-image: url("http://24.media.tumblr.com/53dc3983c0b22c95b3a01a191325c66c/tumblr_mk49xu482A1s5jjtzo1_400.gif");
     background-repeat: no-repeat;
-    object-fit: cover;
     width: 100%;
-    height: auto;
+    height: 80%;
     background-size: 65%;
     padding-left: 50%;
 
@@ -32,9 +30,24 @@
 
 .button-color{
 color: hsla(0, 0%, 3%, 0.803);
-background-color: rgba(0, 255, 255, 0.598);
+background-color: rgba(0, 255, 255, 0.666);
+color: rgb(29, 27, 27);
 border-color: black;
 font-size: small;
 border-radius: 10%;
+
+}
+
+.pop-font{
+    text-shadow: 10px;
+    color: aqua;
+    background: -webkit-linear-gradient(aqua 75%, violet 25%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.moonminer{
+    font-size: xx-large;
+   
 }
 

@@ -58,7 +58,7 @@ let automaticUpgrades = {
     novadrill:{
         cost: 800,
         quantity: 0,
-        multiplayer:1
+        multiplayer:4
     }
 }
 
